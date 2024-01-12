@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--  heading tags -->
+    <h1>Boostrap 5 Tutorial</h1>
+    <h2>this is an h2</h2>
+    <h3>this is an h3</h3>
+    <h2 class="h3">this is an 2 with an h3 class</h2>
+
+    <br>
+    <hr><br>
+
+    <!-- display headings -->
+    <h1 class="display-1">display 1 heading</h1>
+    <h1 class="display-2">display 2 heading</h1>
+    <h1 class="display-5">display 5 heading</h1>
+    <h1 class="display-6">display 6 heading</h1>
+    <p class="display-1">p tag with display-1 class</p>
+
+    <br>
+    <hr><br>
+
+    <!-- lead text & alignment -->
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <!--lead class is useful for the first line in a text for arictles. blogs, ect-->
+    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, eveniet?</p>
+    <p class="text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, eveniet?</p>
+    <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, eveniet?</p>
+
+
+    <br>
+    <hr><br>
+
+    <!-- text decoration & font weight -->
+    <p class="text-decoration-underline">this is underlined text</p>
+    <p class="text-decoration-line-through">this is line-through text</p>
+    <p class="fw-bold">this bold text</p>
+    <small>this is small text</small>
+
+    <br>
+    <hr><br>
+
+    <!-- text colours -->
+    <p class="text-primary">theme primary colour</p>
+    <p class="text-secondary">theme secondary colour</p>
+    <p class="text-info">theme info colour</p>
+    <p class="text-warning">theme warning colour</p>
+    <p class="text-success">theme warning colour</p>
+    <p class="text-danger">theme danger colour</p>
+    <p class="text-muted">theme danger colour</p>
+
+    <br>
+    <hr><br>
+
+    <!-- bg colors -->
+    <p class="text-white bg-primary">white text on primary bg</p>
+    <p class="text-white bg-secondary">white text on secondary bg</p>
+    <p class="text-light bg-danger">white text on secondary bg</p>
+
+    <br>
+    <hr><br>
+
+    <!--basic buutons-->
+    <button class="btn btn-primary"> primary button</button>
+    <button class="btn btn-secondary">secondary button</button>
+
+    <br>
+    <hr><br>
+
+    <!--anchor tag as buttons-->
+    <a href="#" class="btn btn-info">color:info, btn as link</a>
+
+    <br>
+    <hr><br>
+
+    <!--button sizes-->
+    <button class="btn btn-lg btn-danger">large btn with danger color</button>
+    <button class="btn btn-sm btn-warning">small btn with warning color</button>
+
+    <br>
+    <hr><br>
+
+    <!--outlined styles for btns-->
+    <button class="btn btn-outline-primary">outline primary btn</button>
+    <button class="btn btn-outline-success btn-lg">large outline success btn</button>
+
+    <br>
+    <hr><br>
+
+    <!--button groups-->
+    <div class="btn-group">
+        <a href="#" class="btn btn-primary">button1</a>
+        <a href="#" class="btn btn-primary">button2</a>
+        <a href="#" class="btn btn-primary">button3</a>
+    </div>
+
+    <br>
+    <hr><br>
+
+    <!--margin and padding-->
+    <!--m is for margin and p: padding. ranges strength from 1 to 5 so margin is smallest at class m-1 and largest at m-5-->
+    <div class="bg-primary m-1 p-1"> <!--1 is valued at .25 rem-->
+        small margin and padding
+    </div>
+    <div class="bg-secondary m-5 p-5"> <!--5 is valued at 3 rem-->
+        small margin and padding
+    </div>
+    <div class="bg-success my-3 px-5">margin in y direction(top-bottom), padding in x direction(left-right)</div>
+    <div class="bg-success mt-3 mb-4 ms-1 me-5 ps-5 pe-2 pt-4 pb-1">m & p in each dirction</div>
+    <!--t: top, b:bottom, s: start (left), e: end (right)-->
+
+    <br>
+    <hr><br>
+
+    <!--borders-->
+    <div class="m-3 p-3 border">default border</div>
+    <div class="m-3 p-3 border-top border-bottom">individual border</div><!--border-top border-bottom-->
+    <div class="m-3 p-3 border-start border-success">individual border at start with success color</div>
+    <!--border-start-->
+    <div class="m-3 p-3 border-start border-danger border-5">thicker border</div>
+    <!--border-5, change from 1 to 5 to change sizes-->
+    <div class="m-3 p-3 rounded border border-primary border-3">rounded corners border</div><!--rounded border-->
+    <div class="m-3 p-3 rounded-pill border border-primary border-5">rounded pill border</div><!--rounded-pill border-->
+
+    <br>
+    <hr><br>
+
+    <!--box shadow-->
+    <div class="m-3 p-3 shadow-sm">element with small box shadow</div>
+    <div class="m-3 p-3 shadow">element with default sized box shadow</div>
+    <div class="m-3 p-3 shadow-lg">element with large box shadow</div>
+
+    <br>
+    <hr><br>
+
+    <!--font weight-->
+    <p class="fw-bold">bold text</p>
+    <p class="fw-bolder">bolder text</p>
+    <p>normal text</p>
+    <p class="fw-light">light text</p>
+    <p class="fst-italic">italic text</p>
+    <p class="fst-italic fw-light">light italic text</p>
+
+    <br>
+    <hr><br>
+
+    <!--containers-->
+
+    <div class="container my-5 border">
+        <h2>Normal Container with top-bottom margin at strength 5 and a normal border</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aut at dicta sunt recusandae, mollitia
+            cum. Dolor similique neque doloribus ducimus veritatis beatae labore autem? Veritatis itaque velit sunt!
+            Facilis, perspiciatis placeat!</p>
+    </div>
+
+    <div class="container-fluid border">
+        <h2>fluid container is always 100% width of the screen</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus hic ex veniam quia iusto libero corporis
+            nisi, sunt beatae, maxime odio deleniti?</p>
+    </div>
+
+    <div class="container-lg my-5">
+        <h2>100% width until lg screens, then containers at different width</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, harum incidunt doloremque perferendis
+            voluptatem commodi maiores qui ex, ipsa vero cum.</p>
+    </div>
+    <div class="container-xl my-5">
+        <h2>100% width until xl screens, then containers at different width</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, harum incidunt doloremque perferendis
+            voluptatem commodi maiores qui ex, ipsa vero cum.</p>
+    </div>
+
+    <br>
+    <hr><br>
+
+    <!--grid layout-->
+        <!--grids need to be in containers-->
+        <div class="container-lg my-5">
+            <h2>basic grid</h2>
+            <div class="row">
+              <div class="col">
+                <div class="p-5 bg-primary text-light">col 1</div>
+              </div>
+              <div class="col">
+                <div class="p-5 bg-primary text-light">col 2</div>
+              </div>
+              <div class="col">
+                <div class="p-5 bg-primary text-light">col 3</div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="container-lg my-5">
+            <h2>column widths</h2>
+            <div class="row">
+              <div class="col-6">
+                <div class="p-5 bg-primary text-light">col 1</div>
+              </div>
+              <div class="col-3">
+                <div class="p-5 bg-primary text-light">col 2</div>
+              </div>
+              <div class="col-3">
+                <div class="p-5 bg-primary text-light">col 3</div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="container-lg my-5">
+            <h2>responsive column widths</h2>
+            <div class="row gy-3"> <!-- manually change gutter using g{d}-{n} -->
+              <div class="col-sm-4 col-lg-6">
+                <div class="p-5 bg-primary text-light">col 1</div>
+              </div>
+              <div class="col-sm-4 col-lg-3">
+                <div class="p-5 bg-primary text-light">col 2</div>
+              </div>
+              <div class="col-sm-4 col-lg-3">
+                <div class="p-5 bg-primary text-light">col 3</div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="container-lg my-5">
+            <h2>justifying columns</h2>
+            <div class="row"><!-- j-c-end, j-c-start, j-c-between, j-c-around -->
+              <div class="col-md-3">
+                <div class="p-5 bg-primary text-light">col 1</div>
+              </div>
+              <div class="col-md-3">
+                <div class="p-5 bg-primary text-light">col 2</div>
+              </div>
+              <div class="col-md-3">
+                <div class="p-5 bg-primary text-light">col 3</div>
+              </div>
+            </div>
+          </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
