@@ -13,4 +13,4 @@ I had help from videos, websites and referred to the BootStrap Docs as this was 
 
 ## Description
 This webpage is based off a book on web development and its focused is to sell its ebook version. The webpage was going to have a nav section, main section to give a brief introduction with an image of the real hard copy of the book, a shop section displaying the 2 other versions with price and buttons, 
-a section to futher showcase the book with its chapters topic and a little in-depth information, a book review section, a form for questions of the customer, a registration section for updates.
+a section to futher showcase the book with its chapters topic and a little in-depth information, a book review section, a form for questions of the customer, a registration section for updates. Sadly, as I wanted to focus more learning Bootsrap, I did not implement functionality to the buttons on the webpage.
